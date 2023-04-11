@@ -1,0 +1,3 @@
+Existem três tipos de elementos html inline, block and display. Os elementos inline são aqueles que não quebram a linha, como por exemplo o span, strong, em, a, img, input, etc.
+Os elementos block são aqueles que quebram a linha, como por exemplo o div, p, h1, h2, h3, h4, h5, h6, ul, ol, li, table, etc.
+Os elementos display são aqueles que não quebram a linha e não tem tamanho definido, como por exemplo o br, hr, etc.
