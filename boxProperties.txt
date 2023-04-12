@@ -1,0 +1,12 @@
+short hand: padding: 2px 2px 2px 2px;
+top right bottom left  
+
+padding: 2px (same on all sides)
+padding: 2px 4px (top/bottom, left/right)
+padding: 2px 4px 6px (top, left/right, bottom)
+padding: 2px 4px 6px 8px (top, right, bottom, left)
+
+margin: 2px 4px 6px 8px (top, right, bottom, left)
+margin: 2px 4px 6px (top, left/right, bottom)
+margin: 2px 4px (top/bottom, left/right)
+margin: 2px (same on all sides)

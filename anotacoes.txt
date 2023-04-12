@@ -1,3 +1,37 @@
 Existem três tipos de elementos html inline, block and display. Os elementos inline são aqueles que não quebram a linha, como por exemplo o span, strong, em, a, img, input, etc.
 Os elementos block são aqueles que quebram a linha, como por exemplo o div, p, h1, h2, h3, h4, h5, h6, ul, ol, li, table, etc.
 Os elementos display são aqueles que não quebram a linha e não tem tamanho definido, como por exemplo o br, hr, etc.
+
+medidas em html:
+
+px: pixel // é uma unidade de medida absoluta que define um tamanho fixo em pixels.
+
+em: tamanho da fonte // é uma unidade de medida relativa que define um tamanho em relação ao tamanho da fonte do elemento pai.
+
+rem: tamanho da fonte do root  // é uma unidade de medida relativa que define um tamanho em relação ao tamanho da fonte do elemento root.
+
+ex: tamanho da letra x // é uma unidade de medida relativa que define um tamanho em relação ao tamanho da letra x do elemento pai.
+
+cm: centímetros // é uma unidade de medida absoluta que define um tamanho fixo em centímetros.
+
+mm: milímetros // é uma unidade de medida absoluta que define um tamanho fixo em milímetros.
+
+in: polegadas // é uma unidade de medida absoluta que define um tamanho fixo em polegadas.
+
+pt: pontos // é uma unidade de medida absoluta que define um tamanho fixo em pontos. (equal to 1/72 of 1inch)
+
+pc: picas // é uma unidade de medida absoluta que define um tamanho fixo em picas. (equal to 1/6 of 1inch or 12 points)
+
+%: porcentagem // é uma unidade de medida relativa que define um tamanho em relação ao tamanho do elemento pai.
+
+vh: viewport height // é uma unidade de medida relativa que define um tamanho em relação ao tamanho da viewport.
+
+vw: viewport width // é uma unidade de medida relativa que define um tamanho em relação ao tamanho da viewport.
+
+vmin: viewport min // é uma unidade de medida relativa que define um tamanho em relação ao menor valor entre a viewport width e a viewport height.
+
+vmax: viewport max // é uma unidade de medida relativa que define um tamanho em relação ao maior valor entre a viewport width e a viewport height.
+
+width: 1000px; // define a largura do elemento em 1000 pixels
+height: 1000px; // define a altura do elemento em 1000 pixels
+
