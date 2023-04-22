@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Grid</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item example">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+        <div class="item">7</div>
+        <div class="item">8</div>
+        <div class="item">9</div>
+        <div class="item">10</div>
+        <div class="item">11</div>
+        <div class="item">12</div>
+    </div>
+    <style>
+        .container {
+            display: grid; /* Define o container como um grid */
+            grid-template-columns: repeat(3, 1fr); /* Define o número de colunas e o tamanho de cada uma*/
+            grid-template-rows: repeat(3, 1fr); /* Define o número de linhas e o tamanho de cada uma */
+            grid-auto-flow: row;
+            grid-auto-rows: 1fr;
+            grid-auto-columns: 1fr;
+            /*grid-gap: 10px;  Define o espaçamento entre as linhas e colunas */
+            background-color: aqua;
+        }
+        .item {
+            background-color: #ccc;
+            border: 1px solid black;
+            width: 100px;
+            height: 100px;
+            text-align: center;
+            line-height: 100px;
+        }
+        .example {
+            grid-column: 2 / 3;
+        }
+    </style>
+</body>
+
+</html>
