@@ -1,0 +1,5 @@
+Responsive Web Design (RWD)
+
+1- Fluid Layout: The layout of the website should be fluid and should be able to adapt to the screen size of the device.
+2- Flexible Images: Images should be flexible and should be able to adapt to the screen size of the device.
+3- Media Queries: Media queries should be used to target different screen sizes.
